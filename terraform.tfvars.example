@@ -1,0 +1,18 @@
+# Project & VPC Configuration
+project_name    = "example-project"
+vpc_name        = "example-vpc"
+vpc_dns_name    = "example-vpc"
+vpc_description = "Example VPC for cluster"
+subnet_cidr     = "10.0.0.0/26"
+
+# Cluster & Instance Settings
+instance_count = 3
+memory         = 2147483648 # 2GB in bytes
+ncpus          = 2
+disk_size      = 8589934592 # 8GB in bytes
+
+# Image settings
+ubuntu_image_id = "00000000-0000-0000-0000-000000000000" # Replace with actual image ID
+
+# SSH / Auth
+public_ssh_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAEXAMPLEPLACEHOLDERKEY"
